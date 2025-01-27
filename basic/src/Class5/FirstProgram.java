@@ -4,7 +4,7 @@ public class FirstProgram {
     static String name = "Ram Kumar";
     int age = 30;
     int numberOfSubject = 5;
-    
+
     public static void main(String[] args) {
         System.out.println("Java Class 5");
         System.out.println("Now We learn String");
