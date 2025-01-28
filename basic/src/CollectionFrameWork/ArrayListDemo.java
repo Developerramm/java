@@ -38,5 +38,6 @@ public class ArrayListDemo {
 
         System.out.println(list.indexOf(50));
         System.out.println(list.indexOf(100));
+
     }
 }
