@@ -47,7 +47,7 @@ public class Student implements Comparable {
     @Override
     public int compareTo(Object o) {
         // we will define our soting logic
-        
+
         return 0;
     }
 }
