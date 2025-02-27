@@ -10,7 +10,14 @@ public class Main {
         Circle c = new Circle();
         c.draw();
 
-        Rect r = new Rect();
-        r.draw();
+        doDrawingStuff(new Shape());
+        doDrawingStuff(new Circle());
+
+//        Rect r = new Rect();
+//        r.draw();
+    }
+
+    public static void doDrawingStuff(Shape a){
+        a.draw();
     }
 }
