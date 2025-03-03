@@ -41,7 +41,7 @@ public class firstProgram implements Servlet {
 		// TODO Auto-generated method stub
 		System.out.println("service method call 2");
 		res.setContentType("text/html");
-		PrintWriter out = res.getWriter(); m 
+		PrintWriter out = res.getWriter(); 
 		out.println("Welcome to servlet app here ");
 		out.println("Today is " + new Date().toLocaleString());
 	}

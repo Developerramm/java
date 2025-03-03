@@ -20,6 +20,20 @@
   	<url-pattern>/app2</url-pattern>
   </servlet-mapping>
   
+  
+    <servlet>
+  	<servlet-name>third</servlet-name>
+  	<servlet-class>com.servlet.Third</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>third</servlet-name>
+  	<url-pattern>/app3</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
