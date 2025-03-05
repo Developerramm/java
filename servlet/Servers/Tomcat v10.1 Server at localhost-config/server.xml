@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="app1" path="/app1" reloadable="true" source="org.eclipse.jst.jee.server:app1"/><Context docBase="Registration" path="/Registration" reloadable="true" source="org.eclipse.jst.jee.server:Registration"/><Context docBase="Request_dispatcher_app" path="/Request_dispatcher_app" reloadable="true" source="org.eclipse.jst.jee.server:Request_dispatcher_app"/><Context docBase="Param-attr-app" path="/Param-attr-app" reloadable="true" source="org.eclipse.jst.jee.server:Param-attr-app"/></Host>
+      <Context docBase="app1" path="/app1" reloadable="true" source="org.eclipse.jst.jee.server:app1"/><Context docBase="Registration" path="/Registration" reloadable="true" source="org.eclipse.jst.jee.server:Registration"/><Context docBase="Request_dispatcher_app" path="/Request_dispatcher_app" reloadable="true" source="org.eclipse.jst.jee.server:Request_dispatcher_app"/><Context docBase="Param-attr-app" path="/Param-attr-app" reloadable="true" source="org.eclipse.jst.jee.server:Param-attr-app"/><Context docBase="JSPClass1" path="/JSPClass1" reloadable="true" source="org.eclipse.jst.jee.server:JSPClass1"/></Host>
     </Engine>
   </Service>
 </Server>
