@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+">
 
     <!-- bean definitions here -->
-    <bean name="address" class="com.ram.Address">
+
+    <context:annotation-config />
+
+    <bean name="rs" class="com.wire.annotation.Address">
         <property name="city" value="Noida" />
         <property name="state" value="Up" />
     </bean>
 
-    <bean name="st" class="com.ram.Student" autowire="byName"></bean>
+    <bean name="st" class="com.wire.annotation.Student"></bean>
+
 
 </beans>
