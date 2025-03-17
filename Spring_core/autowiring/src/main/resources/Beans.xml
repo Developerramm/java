@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean name="address" class="com.ram.Address">
+        <property name="city" value="Noida" />
+        <property name="state" value="Up" />
+    </bean>
+
+    <bean name="st" class="com.ram.Student" autowire="byName"></bean>
+
+</beans>
